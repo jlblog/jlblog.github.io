@@ -2,7 +2,7 @@
 title: Willian Justen - Desenvolvedor Front End
 description: A blog about lorem ipsum dolor sit amet
 baseurl:  # the subpath of your site, e.g. /blog
-url: "https://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://jlblog.github.io" # the base hostname & protocol for your site e.g.
 profile_img_url: "https://s.gravatar.com/avatar/7a622fd4a58acba9cb4b602dd78a6c92?s=80"
 
 # User settings
