@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JIRA & Confluence 활용"
-date: 2015-01-07 21:31:05
+date: 2018-07-16 16:19:50
 description: "사내 업무 시스템에 JIRA와 Confluence를 적용하고 참고할 내용을 정리함.
             2018 Atlassian in Seoul replay 영상을 참고 하였음."
 main-class: 'dev'
