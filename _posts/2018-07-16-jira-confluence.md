@@ -82,7 +82,8 @@ B -- 기획 확인 --> A
  * 동시 편집이 가능한 주간보고 활용 (보고서 형태로 회의시 사용 가능)
  * 달력을 이용한 개발 일정 공유 (플러그인 설치) 
  * Zenkins 사용시 JIRA, GitHub, Zenkins 개발 사이클 구성 (단계적으로 적용 필요)    
- * JIRA, Bitbucket, Bamboo 조합을 추천  
+ * JIRA, Bitbucket, Bamboo 조합을 추천
+ * 이클립스 - JIRA 연동 가능  
 
 <div class="mermaid" style="text-align:center;">
 sequenceDiagram
@@ -90,8 +91,8 @@ sequenceDiagram
     participant JIRA
     participant GitHub
     participant Zenkins
-    loop 이슈 등록
-        Confluence-->>JIRA: 회의록(업무할당)
+    loop Issue
+        Confluence-->>JIRA: 이슈 생성
         Confluence->>JIRA: 요구사항정의서
         JIRA-->>Confluence: 프로젝트 정보 확인
     end
